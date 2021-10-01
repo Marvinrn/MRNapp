@@ -5,7 +5,7 @@ $font-1: 'Noto Sans TC', sans-serif;
 //light mode
 $color-1: #fffff3;
 $color-2: #b57cc4;
-//$color-3: ;
+//$color-3: #a784ae;
 
 //dark mode
 $color-4: #282c34;
@@ -21,9 +21,9 @@ $color-5: #761690;
 body
 {
     font-family: $font-1;
-    background-color: $color-1;
-    
+    background-color: $color-1; 
 }
+
 
 a{
     text-decoration: none;

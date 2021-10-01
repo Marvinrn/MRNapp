@@ -1,0 +1,52 @@
+header{
+    max-width: 1280px;
+    margin: auto;
+    padding-bottom: 20px;
+    
+
+    nav{
+
+        display: flex;
+        justify-content: space-between;
+
+
+        .mrnLogo{
+            margin: auto;
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+        }
+        
+        .mrnLogo:hover{
+            animation: animate infinite 2.5s linear;
+        }
+
+        .anchor{
+            margin: auto;
+            margin-top: 70px;
+            padding: 5px 15px 5px 15px;
+            font-weight: bold;
+            font-size: 1.5em;
+            text-decoration: none;
+            color: $color-5;
+            cursor: pointer;
+        }
+
+        .anchor:hover{
+            transform: scale(1.1);
+            border-bottom: 3px solid $color-5;
+            padding-bottom: 15px;
+        }
+    }
+
+    @keyframes animate {
+        from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        
+    }
+}
+
