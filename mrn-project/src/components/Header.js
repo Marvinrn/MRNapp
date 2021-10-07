@@ -1,5 +1,5 @@
 import React from 'react';
-import sunLogo from '../assets/sunLogo.png';
+import sunLogo from '../assets/sunEater.png';
 
 const Header = () => {
     return (
