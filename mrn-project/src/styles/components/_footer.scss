@@ -21,7 +21,7 @@ footer{
             padding-left: 0;
         }
             
-        a{
+        .footerLink{
             line-height: 2em;
             text-decoration: none;
             color: white;
@@ -29,7 +29,7 @@ footer{
             
         li {
 
-            a:hover{
+            .footerLink:hover{
                 font-weight: bold;
                 opacity: 0.5;
                 color: white;
