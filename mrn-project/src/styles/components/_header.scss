@@ -51,3 +51,28 @@
     }
 }
 
+@media only screen and (max-width : 624px)
+{
+    .topBar{
+        .navBar{
+            .anchor{
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 512px)
+{
+    .topBar{
+        height: 300px;
+        .navBar{
+            flex-direction: column;
+            .anchor{
+                margin-top: 0;
+                font-size: 1em;
+            }
+        }
+    }
+}
+

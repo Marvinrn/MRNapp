@@ -83,28 +83,28 @@ const Cv = () => {
                         {/* PARTIE FORMATION/DIPLOMES */}
                         <h3 className="smallTitles"> Diplômes et Formations</h3>
                         <h4 className="formations"> DÉVELOPPEUR WEB - Certificat RNCP de niveau 5 (Bac + 2)</h4>
-                        <p><span className="blueTag">OpenClassrooms</span> En ligne/ <span className="greyTag">De 2021 à 2022</span></p>
-                        <p> - Construire un site web fluide s’adaptant à tout type d’écran</p>
-                        <p> - Faire réagir la page web en fonction des actions de l’utilisateur en JavaScript</p>
-                        <p> - Concevoir un site maintenable grâce à la gestion des erreurs et exceptions</p>
-                        <p> - Se connecter à un service web pour exploiter des données tierces (API)</p>
-                        <p> - Créer, gérer et afficher le contenu d’une base de données</p>
+                        <p className="cvText"><span className="blueTag">OpenClassrooms</span> En ligne/ <span className="greyTag">De 2021 à 2022</span></p>
+                        <p className="cvText"> - Construire un site web fluide s’adaptant à tout type d’écran</p>
+                        <p className="cvText"> - Faire réagir la page web en fonction des actions de l’utilisateur en JavaScript</p>
+                        <p className="cvText"> - Concevoir un site maintenable grâce à la gestion des erreurs et exceptions</p>
+                        <p className="cvText"> - Se connecter à un service web pour exploiter des données tierces (API)</p>
+                        <p className="cvText"> - Créer, gérer et afficher le contenu d’une base de données</p>
 
                         <h4 className="formations"> Prep'Apprentissage - Développeur Web</h4>
-                        <p><span className="blueTag">OpenClassrooms</span> En ligne/ <span className="greyTag">De février 2021 à avril 2021</span></p>
-                        <p> - Mettre en place son environnement Front-End</p>
-                        <p> - Implémenter une interface responsive</p>
-                        <p> - Intégrer du contenu conformément à une maquette</p>
-                        <p> - Utiliser un système de gestion de versions pour le suivi du projet et son hébergement</p>
+                        <p className="cvText"><span className="blueTag">OpenClassrooms</span> En ligne/ <span className="greyTag">De février 2021 à avril 2021</span></p>
+                        <p className="cvText"> - Mettre en place son environnement Front-End</p>
+                        <p className="cvText"> - Implémenter une interface responsive</p>
+                        <p className="cvText"> - Intégrer du contenu conformément à une maquette</p>
+                        <p className="cvText"> - Utiliser un système de gestion de versions pour le suivi du projet et son hébergement</p>
 
                         <h4 className="formations"> Licence Mathématiques-Physique-Chimie (MPCI)</h4>
-                        <p><span className="blueTag">UVSQ - UFR des Sciences</span> Versailles, France/ <span className="greyTag">De septembre 2019 à mai 2020</span></p>
+                        <p className="cvText"><span className="blueTag">UVSQ - UFR des Sciences</span> Versailles, France/ <span className="greyTag">De septembre 2019 à mai 2020</span></p>
 
                         <h4 className="formations"> Licence  Mathématiques  et  Informatique  Appliquées  aux  SciencesHumaines et Sociales (MIASHS)</h4>
-                        <p><span className="blueTag">UVSQ - UFR des Sciences</span> Versailles, France/ <span className="greyTag">De septembre 2018 à mai 2019</span></p>
+                        <p className="cvText"><span className="blueTag">UVSQ - UFR des Sciences</span> Versailles, France/ <span className="greyTag">De septembre 2018 à mai 2019</span></p>
 
                         <h4 className="formations"> Baccalauréat scientifique</h4>
-                        <p><span className="blueTag">Lycée Alexandre Dumas</span> Saint-Cloud, France/ <span className="greyTag">De septembre 2017 à juin 2018</span></p>
+                        <p className="cvText"><span className="blueTag">Lycée Alexandre Dumas</span> Saint-Cloud, France/ <span className="greyTag">De septembre 2017 à juin 2018</span></p>
                     </div>
                 </div>
             </div>
