@@ -7,7 +7,7 @@ const Introduction = () => {
             <div className="avatarBg">
                 <img className="mrnAvatar" src={avatar} alt='avatar' />
             </div>
-            <div className="selfIntro">
+            <div className="selfIntro" id="introduction">
                 <h1 className="selfTitle">Qui suis-je?</h1>
                 <br/>
                 <p> Salut, je m'appel Marvin Rodrigues Novo et je suis un jeune développeur web front-end en recherche d'une alternance. Je débute le développement web front-end depuis seulement quelques mois et je suis déja passionné par ce milieu, c'est donc pour cette raison que j'ai décidé de faire du développement web mon métier de rêve.<br/>

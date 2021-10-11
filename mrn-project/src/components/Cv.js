@@ -5,7 +5,7 @@ const Cv = () => {
     return (
         <section className="cvSection">
             <h1 className="cvTitle">Mon CV</h1>
-            <div className="cvContent">
+            <div className="cvContent" id="cv">
                 <aside className="cvAside">
                     <img className="cvPhoto" src={cvPhoto} alt='logo' />
                     <div className="cvInfo">

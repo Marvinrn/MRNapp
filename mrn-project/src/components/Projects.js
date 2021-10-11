@@ -17,7 +17,7 @@ const Projects = () => {
         <section className="projectSection">
             <h1 className="projectTitle">Mes Projets</h1>
 
-            <div className="projectPreview">
+            <div className="projectPreview" id="project">
 
                 <div className="cards">
                     <h1 className="cardstitles">Oden Weeb</h1>
