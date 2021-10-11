@@ -1,0 +1,14 @@
+.lightMode{
+    .topBar{
+        .navBar{
+            .anchor{
+                color: $color-5;
+            }
+    
+            .anchor:hover{
+                border-bottom: 3px solid $color-5;
+            }
+        }
+    }
+    
+}

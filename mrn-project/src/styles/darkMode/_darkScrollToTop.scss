@@ -1,0 +1,10 @@
+.darkMode{
+    .scrollTop{
+        color: $color-6;
+        background-color: $color-2;
+    }
+    
+    .scrollTop:hover{
+        background-color: darkgray;
+    }
+}

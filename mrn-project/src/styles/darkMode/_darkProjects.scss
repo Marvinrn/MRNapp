@@ -1,0 +1,25 @@
+.darkMode{
+    .projectSection{  
+        .projectTitle{
+            color: $color-4;
+        }
+    
+        .projectPreview{
+            .cards{
+                background-color: $color-3;
+                .cardstitles{
+                    color: black;
+                    background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('../../assets/Akatsuki2.jpeg');
+                }   
+                .cardsQuote{
+                    color: $color-2;   
+                    .cardsLink{
+                        color: $color-2;
+                        border-bottom: 2px solid $color-6;
+                    }
+                }
+            }
+        }
+    }
+    
+}

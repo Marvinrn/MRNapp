@@ -1,0 +1,14 @@
+.darkMode{
+    .topBar{
+        .navBar{
+            .anchor{
+                color: white;
+            }
+    
+            .anchor:hover{
+                border-bottom: 3px solid $color-6;
+            }
+        }
+    }
+    
+}

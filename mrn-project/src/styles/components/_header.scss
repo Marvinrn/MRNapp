@@ -19,7 +19,7 @@
         }
         
         .mrnLogo:hover{
-            animation: animate 1s linear;
+            transform: scale(1.1);
         }
 
         .anchor{
@@ -38,16 +38,6 @@
             border-bottom: 3px solid $color-5;
             padding-bottom: 15px;
         }
-    }
-
-    @keyframes animate {
-        from {
-            transform: rotateY(0deg);
-          }
-          to {
-            transform: rotateY(180deg);
-          }
-        
     }
 }
 

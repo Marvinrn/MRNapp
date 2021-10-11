@@ -2,15 +2,16 @@
 $font-1: 'Noto Sans TC', sans-serif;
 
 
-//light mode
+
 $color-1: #fffff3;
 $color-2: #e3e3e3;
-//$color-3: #a784ae;
+$color-3: #282c34;
 
-//dark mode
-$color-4: #282c34;
+
+$color-4: #1d2025;
 $color-5: #21B6f7;
-//$color-6: ;
+$color-6: #ba131bce;
+$color-7: #464950d0;
 
 *{
     box-sizing: border-box;
@@ -24,11 +25,17 @@ body
     background-color: $color-1; 
 }
 
+.lightMode{
+    font-family: $font-1;
+    background-color: $color-1; 
+}
+
+.darkMode{
+    background-color: $color-4;
+}
+
 
 a{
     text-decoration: none;
 }
 
-.projectss{
-    margin-top: 3000px;
-}

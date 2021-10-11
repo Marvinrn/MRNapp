@@ -1,0 +1,68 @@
+.darkMode{
+    .cvSection{
+        border-top: 3px solid $color-2;
+        .cvTitle{
+            color: $color-4;
+            border-bottom: 4px solid $color-4;
+        }
+    
+        .cvContent{
+            .cvAside{
+                background-color: $color-6;              
+                .cvInfo{
+                    i{
+                        color: $color-2;
+                    }
+                }
+                
+                .softSkills{
+                    border-top: 2px solid $color-2;      
+
+                    .skills{
+                        color: $color-2;
+                    }
+                    
+                    span{
+                        color: $color-2;
+                    }
+                }
+                
+                .centerOfInterest{
+                    border-top: 2px solid $color-2;
+
+                    .interest{
+                        color: $color-2;
+                    }
+                }
+            }
+    
+            .cvCareer{
+                background-color: $color-7;        
+                .CV{
+                    .bigTitle{
+                        color: $color-6;
+                    }
+
+                    .cvIntro{
+                        color: $color-2;
+                    }
+
+                    .hardSkills{
+                        color: $color-2;
+                    }
+
+                    .smallTitles{
+                        color: $color-6;
+                    }
+
+                    .blueTag{
+                        color: $color-6;
+                    }
+                }
+                .cvText{
+                    color: $color-2;
+                }
+            }
+        }
+    }
+}

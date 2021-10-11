@@ -1,0 +1,17 @@
+.lightMode{
+    .introSection{        
+        .avatarBg{
+            background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('../../assets/Akatsuki1.jpeg');
+        }
+    
+        .selfIntro{
+            background-color:$color-2;
+            color: $color-3;
+
+    
+            .selfTitle{
+                color: $color-3;
+            }
+        }
+    }
+}
