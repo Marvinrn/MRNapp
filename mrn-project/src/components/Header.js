@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import sunLogo from '../assets/sunEater.png';
-import moonLogo from '../assets/moonEater.png'
 import { Link } from 'react-scroll'
 
 const Header = () => {
