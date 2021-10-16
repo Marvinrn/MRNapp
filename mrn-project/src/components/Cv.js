@@ -1,5 +1,5 @@
 import React from 'react';
-import cvPhoto from '../assets/mrnJojo1.png'
+import cvPhoto from '../assets/MarvinPdp.jpg'
 
 const Cv = () => {
     return (
@@ -9,9 +9,13 @@ const Cv = () => {
                 <aside className="cvAside">
                     <img className="cvPhoto" src={cvPhoto} alt='logo' />
                     <div className="cvInfo">
-                        <p className="info"><i className="fas fa-envelope" /> marvinnrn@gmail.com</p>
-                        <p className="info"><i className="fab fa-linkedin" /> @MarvinRodriguesNovo </p>
-                        <p className="info"><i className="fab fa-github" /> @Marvinrn</p>
+                        <a href='CV_RODRIGUESNOVO_Marvin.pdf'>Click to download</a>
+                        <p><a href="mailto:marvinnrn@gmail.com" className="info cvLink"><i className="fas fa-envelope" /> marvinnrn@gmail.com</a></p>
+
+                        <p><a className="info cvLink" rel="noreferrer" href="https://www.linkedin.com/in/marvinrodriguesnovo" target="_blank"> <i className="fab fa-linkedin"/> @MarvinRodriguesNovo </a></p>
+
+                        <p><a className="info cvLink" rel="noreferrer" href="https://github.com/Marvinrn" target="_blank"> <i className="fab fa-github"/> @Marvinrn </a></p>
+
                         <p className="info"><i className="fas fa-map-marker-alt" /> 2 Rue de Buzenval Saint-CLoud 92210 </p>
                         <p className="info"><i className="fas fa-calendar-alt" /> 23 ans</p>
                         <p className="info"><i className="fas fa-phone-square" /> 06 45 79 18 22 </p>

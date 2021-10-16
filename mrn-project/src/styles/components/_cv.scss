@@ -29,10 +29,13 @@
             border-bottom-left-radius: 15px;
             
             .cvPhoto{
+                border-radius: 50%;
                 display: block;
                 margin: auto;
-                width: 250px;
-                height: 250px;
+                margin-top: 25px;
+                width: 180px;
+                height: 180px;
+                object-fit: cover;
             }
             
             .cvInfo{
@@ -43,6 +46,12 @@
                     margin-top: 3px;
                     word-wrap: break-word;
                     font-size: 0.8em;
+                    color: $color-4;
+                }
+
+                .cvLink:hover{
+                    background-color: $color-1;
+                    padding: 3px;
                 }
                 
                 i{
@@ -156,7 +165,7 @@
     }
 }
 
-@media only screen and (max-width : 1110px)
+@media only screen and (max-width : 1150px)
 {
     .cvSection{
         .cvContent{
@@ -479,8 +488,8 @@
         .cvContent{
             .cvAside{     
                 .cvPhoto{
-                    width: 200px;
-                    height: 200px;
+                    width: 150px;
+                    height: 150px;
                 }
             } 
         }   
