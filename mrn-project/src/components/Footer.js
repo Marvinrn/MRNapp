@@ -4,12 +4,9 @@ const Footer = () => {
     return (
         <footer>
         <div className="footerContainer">
-            <h4>Où me retrouver ?</h4>
-            <ul>
-               <li> <a className="footerLink" rel="noreferrer" href="https://www.linkedin.com/in/marvinrodriguesnovo" target="_blank"><i className="fab fa-linkedin"/> LinkedIn </a></li>
-               <li> <a className="footerLink" rel="noreferrer" href="https://github.com/Marvinrn" target="_blank"> <i className="fab fa-github"/> Github </a></li>
-               <li><i className="fas fa-envelope"></i> marvinnrn@gmail.com</li>
-            </ul>
+            <h4>Remerciements à mon frère pour les différentes illustrations</h4>
+            <br/>
+            <p>Vous pouvez le retrouvez ici : <a href="https://www.instagram.com/defo.cover/" rel="noreferrer" target="_blank">   https://www.instagram.com/defo.cover/</a></p>
         </div>
     </footer>
     );

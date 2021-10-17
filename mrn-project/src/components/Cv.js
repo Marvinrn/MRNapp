@@ -9,7 +9,6 @@ const Cv = () => {
                 <aside className="cvAside">
                     <img className="cvPhoto" src={cvPhoto} alt='logo' />
                     <div className="cvInfo">
-                        <a href='CV_RODRIGUESNOVO_Marvin.pdf'>Click to download</a>
                         <p><a href="mailto:marvinnrn@gmail.com" className="info cvLink"><i className="fas fa-envelope" /> marvinnrn@gmail.com</a></p>
 
                         <p><a className="info cvLink" rel="noreferrer" href="https://www.linkedin.com/in/marvinrodriguesnovo" target="_blank"> <i className="fab fa-linkedin"/> @MarvinRodriguesNovo </a></p>
