@@ -45,7 +45,6 @@
                 
                 .info{
                     margin-top: 3px;
-                    word-wrap: break-word;
                     font-size: 0.8em;
                     color: $color-4;
                 }
@@ -57,7 +56,6 @@
                 
                 i{
                     color: $color-2;
-                    margin-right: 2px;
                 }
             }
             
@@ -471,12 +469,12 @@
     }
 }
 
-@media only screen and (max-width : 460px)
+@media only screen and (min-width : 355px) and (max-width : 460px)
 {
     .cvSection{
         .cvContent{
             width: 100%;
-            height: 1000px;
+            height: 1100px;
             .cvAside{    
                 .cvInfo{ 
                     .info{
@@ -557,7 +555,7 @@
     .cvSection{
         .cvContent{
             width: 100%;
-            height: 1000px;
+            height: 1155px;
             .cvAside{    
                 .cvInfo{ 
                     .info{
@@ -632,17 +630,6 @@
         }   
     }
 }
-
-@media only screen and (max-width : 460px)
-{
-    .cvSection{
-        .cvContent{
-            width: 100%;
-            height: 1105px;
-        }
-    }
-}
-
 
 
 @media only screen and (min-width : 800px) and (max-width : 1050px)
