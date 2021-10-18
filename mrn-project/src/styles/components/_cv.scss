@@ -179,7 +179,7 @@
     }
 }
 
-@media only screen and (max-width : 982px)
+/*@media only screen and (max-width : 982px)
 {
     .cvSection{
         .cvContent{
@@ -310,6 +310,7 @@
     .cvSection{
         .cvContent{
             width: 100%;
+            height: 1070px;
             .cvAside{    
                 border-bottom-left-radius: 0px;
                 .cvInfo{ 
@@ -386,9 +387,9 @@
             }
         }   
     }
-}
+}*/
 
-@media only screen and (max-width : 539px)
+@media only screen and (max-width : 1060px)
 {
     .cvSection{
         .cvContent{
@@ -555,7 +556,7 @@
     .cvSection{
         .cvContent{
             width: 100%;
-            height: 1050px;
+            height: 1080px;
             .cvAside{    
                 .cvInfo{ 
                     .info{
