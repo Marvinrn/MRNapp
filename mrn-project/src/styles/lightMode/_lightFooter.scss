@@ -1,10 +1,38 @@
-.lightMode{
-    footer{
-        background-color: $color-5;
-        .footerContainer{           
-            h4{
-                color: $color-4;
+footer{
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+	background-color: $color-5;
+	width: 100%;
+
+
+    .footerContainer{
+
+        padding-left: 15%;
+        
+        .footerTitle{
+            color: $color-4;
+            font-size: 1.3em;
+        }
+            
+        
+         .contact{
+             margin-bottom: 25px;
+            .contactIcon{
+                margin: auto;
+                padding-right: 20px;
+                color: $color-2;
+                font-size: 2em;
             }
+
+            .footerIcon:hover{
+                transform: scale(1.1);
+            }
+        }
+
+        .thanksTo{
+            color: $color-2;
         }
     }
 }
