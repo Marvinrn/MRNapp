@@ -24,7 +24,7 @@
         
         .cvAside{
             background-color: $color-5;
-            width: 30%;
+            width: 35%;
             height: 100%;
             border-bottom-left-radius: 15px;
             
@@ -40,7 +40,7 @@
             
             .cvInfo{
                 margin-top: 15px;
-                margin-left: 10%;
+                margin-left: 5%;
                 font-weight: bold;
                 
                 .info{
@@ -65,12 +65,12 @@
                 
                 .softTitle{
                     margin-top: 15px;
-                    margin-left: 10%;
+                    margin-left:5%;
                 }
                 
                 .skills{
                     margin-top: 3px;
-                    margin-left: 10%;
+                    margin-left: 5%;
                     color: $color-2;
                 }
                 
@@ -85,16 +85,16 @@
                 
                 .interestTitle{
                     margin-top: 15px;
-                    margin-left: 10%;
+                    margin-left: 5%;
                 }
                 
                 .interestSubTitle{
-                    margin-left: 10%;
+                    margin-left: 5%;
                     margin-top: 3px;
                 }
                 
                 .interest{
-                    margin-left: 10%;
+                    margin-left: 5%;
                     margin-right: 5%;
                     color: $color-2;
                 }
@@ -103,7 +103,7 @@
 
         .cvCareer{
             background-color: $color-2;
-            width: 70%;
+            width: 65%;
             height: 100%;
             border-bottom-right-radius: 15px;
     
@@ -555,7 +555,7 @@
     .cvSection{
         .cvContent{
             width: 100%;
-            height: 1155px;
+            height: 1050px;
             .cvAside{    
                 .cvInfo{ 
                     .info{
