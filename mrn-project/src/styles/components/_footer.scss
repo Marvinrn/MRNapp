@@ -1,39 +1,38 @@
 footer{
-    display: flex;
-	justify-content: flex-start;
+    margin: auto;
     padding-top: 30px;
     padding-bottom: 30px;
     color: white;
 	background-color: $color-5;
 	width: 100%;
-    height: 200px;
+
 
     .footerContainer{
 
         padding-left: 15%;
         
-        h4{
+        .footerTitle{
             color: $color-4;
+            font-size: 1.3em;
         }
             
-        ul{
-            list-style-type: none;
-            padding-left: 0;
-        }
-            
-        .footerLink{
-            line-height: 2em;
-            text-decoration: none;
-            color: white;
-        }
-            
-        li {
-
-            .footerLink:hover{
-                font-weight: bold;
-                opacity: 0.5;
-                color: white;
+        
+         .contact{
+             margin-bottom: 25px;
+            .contactIcon{
+                margin: auto;
+                padding-right: 20px;
+                color: $color-2;
+                font-size: 2em;
             }
-         }
+
+            .footerIcon:hover{
+                transform: scale(1.1);
+            }
+        }
+
+        .thanksTo{
+            color: $color-2;
+        }
     }
 }

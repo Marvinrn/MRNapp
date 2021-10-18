@@ -2,11 +2,14 @@
     .introSection{        
         .avatarBg{
             background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('../../assets/Akatsuki1.jpeg');
+            box-shadow: 0 10px 20px $color-2;
         }
     
         .selfIntro{
             background-color:$color-2;
             color: $color-3;
+            box-shadow: 0 10px 20px $color-7;
+
 
     
             .selfTitle{
