@@ -1,0 +1,88 @@
+.cardsOdenHover{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(109, 25, 25);
+    background-image: none;
+    border-radius: 15px;
+    transition: background-color 1s;
+
+    .cardsText{
+        margin-bottom: 15px;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.3em;
+        color: $color-2;
+    }
+
+    .odenAlign{
+        text-align: center;
+        .cardsLink{
+            background: linear-gradient(rgba(224, 161, 88, 0.8), rgba(109, 25, 25, 0.8));
+            padding: 10px;
+            color: $color-2;
+            font-size: 1.2em;
+            border: 2px solid $color-2;
+            border-radius: 100px;
+        }
+    }
+}
+
+.cardsRRHover{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(131, 39, 123);
+    background-image: none;
+    border-radius: 15px;
+
+    .cardsText{
+        margin-bottom: 15px;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.3em;
+        color: $color-2;
+    }
+
+    .rRAlign{
+        text-align: center;
+        .cardsLink{
+            background: linear-gradient(rgba(71, 75, 128, 0.8), rgba(131, 39, 123, 0.8));
+            padding: 10px;
+            color: $color-2;
+            font-size: 1.2em;
+            border: 2px solid $color-2;
+            border-radius: 100px;
+        }
+
+        .cardsLink:hover{
+            transform: scale(1.5);
+        }
+    }
+}
+
+.cardsReserviaHover{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(29, 117, 73);
+    background-image: none;
+    border-radius: 15px;
+
+    .cardsText{
+        margin-bottom: 15px;
+        padding: 12px;
+        text-align: center;
+        font-size: 1em;
+        color: $color-2;
+    }
+
+    .reserviaAlign{
+        text-align: center;
+        .cardsLink{
+            background: linear-gradient(rgba(71, 75, 128, 0.8), rgba(29, 117, 73, 0.8));
+            padding: 10px;
+            color: $color-2;
+            font-size: 1.2em;
+            border: 2px solid $color-2;
+            border-radius: 100px;
+        }
+    }
+}
