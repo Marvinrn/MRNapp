@@ -46,9 +46,9 @@ const Introduction = () => {
                         className={theme === "darkMode" ? clickedClass : "mrnLogo"}
                         onClick={e => switchTheme(e)}
                     >       
-                            {themeMode === "lightMode" || theme === "lightMode" ? 
-                            (<img className="mrnLogo" src={sunLogo} alt='logo' /> 
-                            ) : (<img className="mrnLogo" src={moonLogo} alt='logo' /> )}
+                            {themeMode === "darkMode" || theme === "darkMode" ? 
+                            (<img className="mrnLogo" src={moonLogo} alt='logo' /> 
+                            ) : (<img className="mrnLogo" src={sunLogo} alt='logo' /> )}
                     </span>
                     <Link
                         className="anchor"
@@ -89,7 +89,7 @@ const Introduction = () => {
             </header>
             <section className="introSection">
                 <div className="avatarBg">
-                     <img className="mrnAvatar" src={themeMode === "lightMode" || theme === "lightMode" ? (avatar) : (avatarJojo)}alt='logo' /> 
+                     <img className="mrnAvatar" src={themeMode === "darkMode" || theme === "darkMode"  ? (avatarJojo) : (avatar)}alt='logo' /> 
                 </div>
                 <div className="selfIntro" id="introduction">
                     <h1 className="selfTitle">Qui suis-je?</h1>

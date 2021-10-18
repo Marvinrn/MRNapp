@@ -1,16 +1,18 @@
-footer{
-	background-color: $color-3;
-    .footerContainer{
-        .footerTitle{
-            color: $color-2;
-        }
-         .contact{
-            .contactIcon{
+.darkMode{
+    footer{
+        background-color: $color-3;
+        .footerContainer{
+            .footerTitle{
+                color: $color-2;
+            }
+            .contact{
+                .contactIcon{
+                    color: $color-6;
+                }
+            }
+            .thanksTo{
                 color: $color-6;
             }
-        }
-        .thanksTo{
-            color: $color-6;
         }
     }
 }
