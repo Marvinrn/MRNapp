@@ -552,6 +552,87 @@
     }
 }
 
+@media only screen and (max-width : 355px)
+{
+    .cvSection{
+        .cvContent{
+            width: 100%;
+            height: 1000px;
+            .cvAside{    
+                .cvInfo{ 
+                    .info{
+                        font-size: 0.4em;
+                    }
+                    
+                    i{
+                        font-size: 0.6em;
+                    }
+                }
+                
+                .softSkills{           
+                    .softTitle{
+                        font-size: 0.9em;
+                    }
+                    
+                    .skills{
+                        font-size: 0.7em;
+                    }
+                }
+                
+                .centerOfInterest{
+                    .interestTitle{
+                        font-size: 1em;
+                    }
+                    
+                    .interestSubTitle{
+                        font-size: 0.86em;
+                    }
+                    
+                    .interest{
+                        font-size: 0.8em;
+                    }
+                }
+            }
+
+            .cvCareer{
+                .CV{
+                    margin-left: 10px;
+                    .bigTitle{
+                        font-size: 1.6em;
+                    }
+    
+                    .mediumTitle{
+                        font-size: 1.1em;
+                    }
+
+                    .cvIntro{
+                        font-size: 0.6em;
+                    }
+    
+                    .smallTitles{
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        font-size: 0.9em;
+                    }
+
+                    .hardSkills{
+                        font-size: 0.6em;
+                    }
+       
+                    .formations{
+                        font-size: 0.7em;
+                        margin-top: 20px;
+                    }
+
+                    .cvText{
+                        font-size: 0.6em;
+                    }
+                }
+            }
+        }   
+    }
+}
+
 @media only screen and (max-width : 460px)
 {
     .cvSection{
