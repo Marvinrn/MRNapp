@@ -440,6 +440,15 @@
     }
 }
 
+@media only screen and (max-width : 430px)
+{
+    .cvSection{
+        .cvContent{
+            height: 1020px;
+        }
+    }
+}
+
 @media only screen and (max-width : 400px)
 {
     .cvSection{
