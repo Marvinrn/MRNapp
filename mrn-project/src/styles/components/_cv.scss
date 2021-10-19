@@ -449,14 +449,14 @@
     }
 }
 
-@media only screen and (max-width : 400px)
+/*@media only screen and (min-width : 371px) and (max-width : 400px)
 {
     .cvSection{
         .cvContent{
-            height: 1070px;
+            height: 1120px;
         }
     }
-}
+}*/
 
 @media only screen and (max-width : 370px)
 {
