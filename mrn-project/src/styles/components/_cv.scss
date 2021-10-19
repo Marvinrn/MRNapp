@@ -17,8 +17,8 @@
         display: flex;
         margin: auto;
         margin-top: 50px;
-        width: 80%;
-        height: 1200px;
+        width: 85%;
+        height: 1100px;
 
 
         
@@ -45,7 +45,7 @@
                 
                 .info{
                     margin-top: 3px;
-                    font-size: 0.8em;
+                    font-size: 0.7em;
                     color: $color-4;
                 }
 
@@ -66,12 +66,14 @@
                 .softTitle{
                     margin-top: 15px;
                     margin-left:5%;
+                    font-size: 1.2em;
                 }
                 
                 .skills{
                     margin-top: 3px;
                     margin-left: 5%;
                     color: $color-2;
+                    font-size: 0.8em;
                 }
                 
                 span{
@@ -86,17 +88,20 @@
                 .interestTitle{
                     margin-top: 15px;
                     margin-left: 5%;
+                    font-size: 1.2em;
                 }
                 
                 .interestSubTitle{
                     margin-left: 5%;
                     margin-top: 3px;
+                    font-size: 1em;
                 }
                 
                 .interest{
                     margin-left: 5%;
                     margin-right: 5%;
                     color: $color-2;
+                    font-size: 0.9em;
                 }
             }
         }
@@ -108,13 +113,12 @@
             border-bottom-right-radius: 15px;
     
             .CV{
-                margin-top: 50px;
-                margin-left: 50px;
+                margin-left: 25px;
                 margin-right: 20px;
 
                 .bigTitle{
                     color: $color-5;
-                    font-size: 2.5em;
+                    font-size: 2.2em;
                 }
 
                 .mediumTitle{
@@ -123,6 +127,7 @@
 
                 .cvIntro{
                     opacity: 0.8;
+                    font-size: 0.8em;
                 }
 
                 .smallTitles{
@@ -134,11 +139,16 @@
 
                 .hardSkills{
                     font-weight: bold;
+                    font-size: 0.9em;
                 }
 
                 .formations{
                     font-size: 1.1em;
                     margin-top: 20px;
+                }
+
+                .cvText{
+                    font-size: 0.8em;
                 }
 
                 .blueTag{
@@ -153,248 +163,126 @@
     }
 }
 
-
-@media only screen and (max-width : 1265px)
+@media only screen and (max-width : 980px)
 {
     .cvSection{
         .cvContent{
-            height: 1200px;
-
+            display: flex;
+            margin: auto;
+            margin-top: 50px;
+            width: 85%;
+            height: 1080px;
+    
+            .cvCareer{
+                background-color: $color-2;
+                width: 65%;
+                height: 100%;
+                border-bottom-right-radius: 15px;
+        
+                .CV{
+                    .bigTitle{
+                        color: $color-5;
+                        font-size: 2.2em;
+                    }
+    
+                    .mediumTitle{
+                        font-size: 1.7em;
+                    }
+    
+                    .smallTitles{
+                        margin-top: 25px;
+                        margin-bottom: 10px;
+                        font-size: 1.3em;
+                        color: $color-5;
+                    }
+    
+                    .hardSkills{
+                        font-weight: bold;
+                        font-size: 0.85em;
+                    }
+    
+                    .formations{
+                        font-size: 1em;
+                        margin-top: 20px;
+                    }
+    
+                    .cvText{
+                        font-size: 0.7em;
+                    }
+    
+                    .blueTag{
+                        color: $color-5;
+                    }
+    
+                    .greyTag{
+                    opacity: 0.7;
+                    }
+                }
+            }
         }
     }
 }
 
-@media only screen and (max-width : 1150px)
+@media only screen and (max-width : 810px)
 {
     .cvSection{
         .cvContent{
-            height: 1400px;
-            .cvAside{     
-                .cvPhoto{
-                    width: 200px;
-                    height: 200px;
-                }
-            } 
-        }   
-    }
-}
-
-/*@media only screen and (max-width : 982px)
-{
-    .cvSection{
-        .cvContent{
-            height: 1200px;
             .cvCareer{
                 .CV{
-                    margin-top: 25px;
-                    .bigTitle{
-                        font-size: 2em;
-                    }
-    
-                    .mediumTitle{
-                        font-size: 1.5em;
-                    }
-
-                    .cvIntro{
-                        font-size: 0.8em;
-                    }
-    
-                    .smallTitles{
-                        margin-top: 25px;
-                        margin-bottom: 10px;
-                        font-size: 1.2em;
-                    }
-
-                    .hardSkills{
-                        font-size: 0.8em;
-                    }
-       
                     .formations{
-                        font-size: 1em;
+                        font-size: .9em;
                         margin-top: 20px;
-                    }
-
-                    .cvText{
-                        font-size: 0.87em;
                     }
                 }
             }
-        }   
+        }
     }
 }
 
-@media only screen and (max-width : 891px)
+@media only screen and (max-width : 785px)
 {
     .cvSection{
         .cvContent{
-            height: 1165px;
-            .cvAside{     
-                .cvInfo{ 
-                    .info{
-                        font-size: 0.7em;
+            height: 1150px;
+            .cvCareer{
+                .CV{
+                    .mediumTitle{
+                        font-size: 1.4em;
                     }
-                    
-                    i{
-                        font-size: 0.9em;
-                    }
-                }
-                
-                .softSkills{           
-                    .softTitle{
-                        font-size: 1.2em;
-                    }
-                    
-                    .skills{
-                        font-size: 0.9em;
-                    }
-                }
-                
-                .centerOfInterest{
-                    .interestTitle{
-                        font-size: 1.2em;
-                    }
-                    
-                    .interestSubTitle{
+
+                    .smallTitles{
                         font-size: 1.1em;
                     }
-                    
-                    .interest{
-                        font-size: 0.9em;
-                    }
-                }
-            }
-
-
-            .cvCareer{
-                .CV{
-                    margin-left: 10px;
-                    .bigTitle{
-                        font-size: 1.7em;
-                    }
-    
-                    .mediumTitle{
-                        font-size: 1.2em;
-                    }
-
-                    .cvIntro{
-                        font-size: 0.8em;
-                    }
-    
-                    .smallTitles{
-                        margin-top: 25px;
-                        margin-bottom: 10px;
-                        font-size: 1em;
-                    }
 
                     .hardSkills{
-                        font-size: 0.8em;
-                    }
-       
-                    .formations{
-                        font-size: 0.8em;
-                        margin-top: 20px;
+                        font-size: .8em;
                     }
 
-                    .cvText{
-                        font-size: 0.87em;
+                    .formations{
+                        font-size: .9em;
+                        margin-top: 20px;
                     }
                 }
             }
-        }   
+        }
     }
 }
 
-
-@media only screen and (max-width : 715px)
+@media only screen and (max-width : 680px)
 {
     .cvSection{
         .cvContent{
             width: 100%;
-            height: 1070px;
-            .cvAside{    
-                border-bottom-left-radius: 0px;
-                .cvInfo{ 
-                    .info{
-                        font-size: 0.7em;
-                    }
-                    
-                    i{
-                        font-size: 0.8em;
-                    }
-                }
-                
-                .softSkills{           
-                    .softTitle{
-                        font-size: 1.2em;
-                    }
-                    
-                    .skills{
-                        font-size: 0.9em;
-                    }
-                }
-                
-                .centerOfInterest{
-                    .interestTitle{
-                        font-size: 1.2em;
-                    }
-                    
-                    .interestSubTitle{
-                        font-size: 1.1em;
-                    }
-                    
-                    .interest{
-                        font-size: 1em;
-                    }
-                }
-            }
-
-
-            .cvCareer{
-                border-bottom-right-radius: 0px;
-                .CV{
-                    margin-left: 10px;
-                    .bigTitle{
-                        font-size: 1.7em;
-                    }
-    
-                    .mediumTitle{
-                        font-size: 1.2em;
-                    }
-
-                    .cvIntro{
-                        font-size: 0.8em;
-                    }
-    
-                    .smallTitles{
-                        margin-top: 25px;
-                        margin-bottom: 10px;
-                        font-size: 1em;
-                    }
-
-                    .hardSkills{
-                        font-size: 0.8em;
-                    }
-       
-                    .formations{
-                        font-size: 0.8em;
-                        margin-top: 20px;
-                    }
-
-                    .cvText{
-                        font-size: 0.87em;
-                    }
-                }
-            }
-        }   
+            height: 1100px;
+        }
     }
-}*/
+}
 
-@media only screen and (max-width : 1060px)
-{
+@media only screen and (max-width : 600px){
     .cvSection{
         .cvContent{
             width: 100%;
-            height: 1000px;
+            height: 980px;
             .cvAside{    
                 .cvInfo{ 
                     .info{
@@ -408,17 +296,17 @@
                 
                 .softSkills{           
                     .softTitle{
-                        font-size: 0.9em;
+                        font-size: 1.1em;
                     }
                     
                     .skills{
-                        font-size: 0.75em;
+                        font-size: 0.9em;
                     }
                 }
                 
                 .centerOfInterest{
                     .interestTitle{
-                        font-size: 1em;
+                        font-size: 1.1em;
                     }
                     
                     .interestSubTitle{
@@ -435,7 +323,7 @@
                 .CV{
                     margin-left: 10px;
                     .bigTitle{
-                        font-size: 1.6em;
+                        font-size: 1.4em;
                     }
     
                     .mediumTitle{
@@ -462,7 +350,7 @@
                     }
 
                     .cvText{
-                        font-size: 0.67em;
+                        font-size: 0.72em;
                     }
                 }
             }
@@ -470,30 +358,31 @@
     }
 }
 
-@media only screen and (min-width : 400px) and (max-width : 460px)
+
+@media only screen and (max-width : 459px)
 {
     .cvSection{
         .cvContent{
             width: 100%;
-            height: 1155px;
+            height: 980px;
             .cvAside{    
                 .cvInfo{ 
                     .info{
-                        font-size: 0.42em;
+                        font-size: 0.45em;
                     }
                     
                     i{
-                        font-size: 0.7em;
+                        font-size: 0.6em;
                     }
                 }
                 
                 .softSkills{           
                     .softTitle{
-                        font-size: 0.9em;
+                        font-size: 1em;
                     }
                     
                     .skills{
-                        font-size: 0.7em;
+                        font-size: 0.8em;
                     }
                 }
                 
@@ -507,7 +396,7 @@
                     }
                     
                     .interest{
-                        font-size: 0.85em;
+                        font-size: 0.8em;
                     }
                 }
             }
@@ -543,7 +432,7 @@
                     }
 
                     .cvText{
-                        font-size: 0.65em;
+                        font-size: 0.6em;
                     }
                 }
             }
@@ -552,6 +441,15 @@
 }
 
 @media only screen and (max-width : 400px)
+{
+    .cvSection{
+        .cvContent{
+            height: 1070px;
+        }
+    }
+}
+
+@media only screen and (max-width : 361px)
 {
     .cvSection{
         .cvContent{
@@ -570,21 +468,21 @@
                 
                 .softSkills{           
                     .softTitle{
-                        font-size: 0.9em;
+                        font-size: 1em;
                     }
                     
                     .skills{
-                        font-size: 0.7em;
+                        font-size: 0.8em;
                     }
                 }
                 
                 .centerOfInterest{
                     .interestTitle{
-                        font-size: 1em;
+                        font-size: 1.1em;
                     }
                     
                     .interestSubTitle{
-                        font-size: 0.86em;
+                        font-size: 0.9em;
                     }
                     
                     .interest{
@@ -624,13 +522,17 @@
                     }
 
                     .cvText{
-                        font-size: 0.6em;
+                        font-size: 0.53em;
                     }
                 }
             }
         }   
     }
 }
+
+
+
+///////////////////////////////////////////////////////// MEDIA FOR PHOTO /////////////////////////////////////////////////////
 
 
 @media only screen and (min-width : 800px) and (max-width : 1050px)

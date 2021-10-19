@@ -94,7 +94,8 @@ const Introduction = () => {
                 <div className="selfIntro" id="introduction">
                     <h1 className="selfTitle">Qui suis-je?</h1>
                     <br />
-                    <p> Salut, je m'appelle Marvin Rodrigues Novo et je suis un jeune développeur web front-end en recherche d'une alternance. Je débute le développement web front-end depuis seulement quelques mois et je suis déjà passionné par ce milieu, c'est donc pour cette raison que j'ai décidé de faire du développement web mon métier de rêve.<br />
+                    <p className="selfText"> Salut, je m'appelle Marvin RODRIGUES NOVO, j'ai 23 ans et je suis un jeune développeur web front-end à la recherche d'une alternance. J'ai débuté le développement web front-end depuis seulement quelques mois et je suis déjà passionné par ce milieu, c'est donc pour cette raison que j'ai décidé de faire du développement web mon métier de rêve.<br />
+                    <br/>
                         Sur ce site vous retrouverez les différents projets que j'ai pu réaliser, ainsi que mes futurs projets à venir.
                     </p>
                 </div>

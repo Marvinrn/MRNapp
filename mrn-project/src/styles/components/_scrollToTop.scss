@@ -15,3 +15,22 @@
     opacity: 0.5;
 }
 
+@media only screen and (max-width : 350px)
+{
+    .scrollTop{
+        width: 100%;
+        text-align: center;
+        margin: 35px 0 0 0;
+        font-size: 3em;
+        color: $color-5;
+        background-color: $color-2;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        cursor: pointer;
+    }
+    
+    .scrollTop:hover{
+        background-color: darkgray;
+        opacity: 0.5;
+    }
+}

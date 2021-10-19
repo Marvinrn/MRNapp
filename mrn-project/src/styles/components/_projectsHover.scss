@@ -86,3 +86,49 @@
         }
     }
 }
+
+@media only screen and (max-width : 350px)
+{
+    .cardsOdenHover{
+        .cardsText{
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 1.3em;
+        }
+    
+        .odenAlign{
+            .cardsLink{
+                padding: 10px;
+                font-size: 1.2em;
+            }
+        }
+    }
+    
+    .cardsRRHover{
+        .cardsText{
+            font-size: 1.1em;
+        }
+    
+        .rRAlign{
+            .cardsLink{
+                padding: 10px;
+                font-size: 1.2em;
+            }
+        }
+    }
+    
+    .cardsReserviaHover{
+        .cardsText{
+            padding: 12px;
+            font-size: 0.95em;
+        }
+    
+        .reserviaAlign{
+            text-align: center;
+            .cardsLink{
+                padding: 10px;
+                font-size: 1.2em;
+            }
+        }
+    }
+}
